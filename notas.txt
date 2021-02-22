@@ -1,0 +1,11 @@
+npm init --yes
+npm i express socket.io
+npm i nodemon -D
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
+  
+La carpeta public sera la responsable de tener los archivos del frontend
